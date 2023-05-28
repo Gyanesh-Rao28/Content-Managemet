@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@800&family=Raleway:wght@400;500;600&display=swap');
+
+/* font-family: 'Mukta', sans-serif;
+font-family: 'Raleway', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F8F6F4;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav {
+    border: 2px solid transparent;
+    height: 8vh;
+    width: 80%;
+    position: absolute;
+    top: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    width: 70%;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+
+}
+
+/* BLogs */
+.content {
+    width: 80%;
+    position: absolute;
+    top: 150px;
+
+}
+
+hr {
+    height: 3px;
+    background-color: black;
+}
+
+.blog-title {
+    font-family: 'Mukta', sans-serif;
+    font-weight: 800;
+    font-size: 36px;
+    color: #4E31AA;
+}
+
+.blogs {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    margin: 15px 0;
+
+}
+
+
+a {
+    color: black;
+    text-decoration: none;
+    transition: 0.8s;
+}
+
+a:hover {
+    cursor: pointer;
+    color: #4E31AA;
+}
+
+#logo {
+    font-family: 'Mukta', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    color: black;
+}
+
+.regis {
+    padding: 0.5em 2em;
+    background-color: black;
+    color: #EEEEEE;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    transition: 0.8s;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+}
+
+.regis:hover {
+    background-color: transparent;
+    border: 2px solid;
+    color: black;
+    cursor: pointer;
+}
+
+
+/* landingpage */
+
+#landing {
+    position: absolute;
+    top: 100px;
+    height: 85vh;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1.5fr 2fr;
+}
+
+.landing-left {
+    position: relative;
+}
+
+.title {
+    position: absolute;
+    font-family: 'Mukta', sans-serif;
+    top: 48px;
+    left: 0;
+    width: 69%;
+    font-size: 3.5em;
+    line-height: 73px;
+}
+
+.txt {
+    position: absolute;
+    top: 290px;
+    left: 0px;
+    width: 70%;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    color: #6A6A6A;
+}
+
+.help {
+    position: absolute;
+    top: 270px;
+    left: 0px;
+    height: 10%;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#help-link {
+    color: #222831;
+    transition: 0.8s;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+
+}
+
+#help-link:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    /* font-family: 'Bruno Ace', cursive; */
+}
+
+#hr {
+    height: 40px;
+    width: 2px;
+    background-color: #222831;
+    align-self: center;
+}
+
+
+.card {
+    overflow: none;
+    position: relative;
+    width: 40%;
+    display: flex;
+
+}
+
+.card-text {
+    margin-top: 10px;
+}
+
+.para {
+
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    overflow: none;
+    color: #6A6A6A;
+    margin-left: 5px;
+}
+
+.img {
+    width: 85px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.review {
+    overflow: none;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+
+#likes {
+    overflow: none;
+    position: absolute;
+    top: 400px;
+    left: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.extra {
+    position: absolute;
+    top: 538px;
+    left: 118px;
+    width: 163px;
+    height: 100px;
+    background: #F8F6F4;
+    box-shadow: 0px 4px 10px 4px rgba(217, 217, 217, 0.91);
+    border-radius: 10px;
+}
+
+.extra-img {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    height: 48px;
+    width: 48px;
+    object-fit: cover;
+    border-radius: 100px;
+    z-index: 1;
+}
+
+.name {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    position: absolute;
+    font-size: 14px;
+    top: 25px;
+    left: 63px;
+    z-index: 0;
+}
+
+.see-link {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    position: absolute;
+    font-size: 14px;
+    bottom: 7px;
+    left: 20px;
+}
+
+.arrow {
+    position: absolute;
+    bottom: 7px;
+    right: 40px;
+    width: 16px;
+}
+
+.landing-right {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-img {
+    position: absolute;
+    top: 75px;
+    left: 253px;
+    width: 340px;
+    height: 458px;
+    box-shadow: 0px 4px 36px #D8DBE2;
+    border-radius: 21px;
+}
+
+/* admin */
+
+.create-blog {
+
+    height: 75%;
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+label {
+    margin: 10px;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+input {
+    margin-bottom: 12px;
+    height: 41px;
+    width: 265px;
+}
+
+#submit {
+    margin-top: 20px;
+    padding: 0.5em 2em;
+    background-color: #4E31AA;
+    color: #EEEEEE;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    transition: 0.8s;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+}
+
+#submit:hover {
+    background-color: transparent;
+    border: 2px solid;
+    color: #4E31AA;
+    cursor: pointer;
+}
+
+/* blogpage */
+
+.blog-cards {
+    margin-top: 15px;
+    padding: 15px;
+    width: 60%;
+    background: #F8F6F4;
+    border: 2px solid transparent;
+    box-shadow: 0px 4px 10px 4px rgba(217, 217, 217, 0.91);
+    border-radius: 20px;
+    overflow: hidden;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.blog-card-title {
+    font-weight: 800;
+    color: #4E31AA;
+}
+
+.spinnet {
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.blog-body {
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 10px;
+}

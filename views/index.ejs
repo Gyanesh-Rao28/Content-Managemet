@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('./partials/head.ejs') %>
+
+    <body>
+
+        <%- include('./partials/nav.ejs') %>
+
+            <div id="landing">
+
+                <div class="landing-left">
+
+                    <h1 class="title">Your Pet <img src="/imgs/paw2.png" alt="" width="32px"> Our Services</h1>
+
+                    <p class="txt">Before you home pet, be sure you're
+                        ready to take care of it properly</p>
+
+                    <div class="help">
+                        <button class="regis">Our Services</button>
+                        <a href="#" id="help-link">Create Schedule</a>
+                    </div>
+
+                    <div id="likes">
+                        <div class="card">
+                            <img class="img" src="/imgs/review.jpg" alt="">
+                            <div class="card-text">
+                                <h2 class="review"><span style="margin: 0 6px;">2K+</span> Reviews</h2>
+                                <hr>
+                                <p class="para">See user rating of us to see the quality we provide.</p>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img class="img" src="/imgs/review.jpg" alt="">
+                            <div class="card-text">
+                                <h2 class="review"><span style="margin: 0 5px;">6K+</span>Customer</h2>
+                                <hr>
+                                <p class="para">See user rating of us to see the quality we provide.</p>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <div class="extra">
+                        <img src="/imgs/person2.jpg" alt="" class="extra-img">
+                        <p class="name">Jeffrey Dahner</p>
+                        <a href="#" class="see-link">See Review</a>
+                        <img src="/imgs/arrow.png" alt="" class="arrow">
+                    </div>
+                </div>
+
+                <div class="landing-right">
+                    <img src="/imgs/person3.jpg" alt="" class="left-img">
+                </div>
+            </div>
+
+            <%- include('./partials/footer.ejs') %>
+
+    </body>
+
+</html>
